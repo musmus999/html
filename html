@@ -4,7 +4,11 @@
 	everything in between is interpreted as html code
 	hello world-->
 	
-	<head> <title>HTML NOTES</title></head> 
+	<head> 
+		<title>HTML NOTES
+		</title>
+		<link href= "css.css" type= text/css rel= stylesheet>
+	</head> 
 		<body>
 	
 			<h1>Html notes</h1>
@@ -35,22 +39,29 @@
 				<li>c</li>
 			</ol>
             
-			<p>You can add images by putting the url in an img tag</p>
+			<p>You can add images by putting the url in an img tag followed by src="link</p>
 			<img src="https://i.ytimg.com/vi/jPLJbSp6vKY/maxresdefault.jpg" />
 			
 			<p>You can add a video the same way you add an image except the tag is video instead of img, and that you cant simply put the url, you need the video file</p>
 			
-			<p>You can link other pages by using 
+			<p>You can link other pages by using  
 			
 			<h1>Css</h1>
 			
 			<p style="color: red">Css helps you style your page. You can write css in html or in a seperate file. <br>To write it in the html file you must use what are called inline styles. They can target specific pieces of text and style them (colour,font,size). You would put <strong>style= "color: red;</strong> in between the p and the > of the opening p tag. That paragraph would now be in red.</p>
 			
-			<p>To apply styling to an entire page, you must put the style tags in the head tag (which contains metadata). </p>
+			<p>To apply styling to an entire page, you must put the style tags in the head tag (which contains metadata).</p>
 			
-			<p>Often times however, developers will seperate the css file from the html file. To link it, you must</p>
+			<p>Often times however, developers will seperate the css file from the html file. To link it, you must 
+			put the (link href= >) tag. Put the file name after "=". You have to then put the type of file (type="text/css") and the relationship between the two files (rel="stylesheet")</p>
+			
+			<h1>The css file</h1>
+			
+			<p>You can select elements of the html file to style. If you put p{<em>blue for example</em>}, everything in every paragraph will be blue, however it will be overruled by an inline style tag. You can also class parts of your text and name them. You can call this paragraph john, then in your css file you can say john is green. this paragraph will be green. </p>
 			
 			
 			
 	
 		</body>
+
+	</html>
