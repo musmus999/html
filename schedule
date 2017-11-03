@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+
+
+
+<html>
+  <head> 
+    <title>Schedule
+    </title>
+    <link href= "schedule.css" type= text/css rel= stylesheet>
+  </head> 
+  <body>
+    <table>
+        <tr>
+            <th></th>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day A1</th>
+            <th>Day A3</th>
+            <th>Day A6</th>
+        </tr>
+        <tr>
+            <th>Period 1</th>
+            <td>RelEth</td>
+            <td>SciEnv</td>
+            <td>French</td>
+            <td>Eng La</td>
+            <td>Hist</td>
+            <th>CompProg</th>
+            <td>Hist</td>
+            <td>Ns Math</td>
+            <td></td>
+            <td>French</td>
+            <td>RelEth4</td>
+        </tr>
+        <tr>
+            <th>Period 2</th>
+            <td>SciEnv</td>
+            <td>Music</td>
+            <td>Ns Math</td>
+            <th>CompProg</th>
+            <td>Music</td>
+            <td>Ns Math</td>
+            <td>RelEth</td>
+            <td>French</td>
+            <th>CompProg</th>
+            <th>CompProg</th>
+            <th>CompProg</th>
+        </tr>
+        <tr>
+            <th>Period 3</th>
+            <td>French</td>
+            <td>Eng La</td>
+            <td>RelEth</td>
+            <td>SciEnv</td>
+            <td>Eng La</td>
+            <td>Eng La</td>
+            <td>French</td>
+            <td>SciEnv</td>
+            <td>French</td>
+            <td></td>
+            <td>French</td>
+        </tr>
+        <tr>
+            <th>Period 4</th>
+            <th>CompProg</th>
+            <td>Spch</td>
+            <td>HR4-E</td>
+            <td>Hist</td>
+            <td>Spch</td>
+            <td>Music</td>
+            <td>LA4</td>
+            <td>Hist</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Period 5</th> 
+            <th>CompProg</th> 
+            <td>Hist</td> 
+            <td>SciEnv</td> 
+            <td>Ns Math</td> 
+            <td>Ns Math</td> 
+            <td>Music</td> 
+            <td>Eng LA</td> 
+            <td>PE</td> 
+            <td>SciEnv</td> 
+            <td>SciEnv</td> 
+            <td>SciEnv</td> 
+        </tr>
+        <tr>
+            <th>Period 6</th> 
+            <td>Eng LA</td> 
+            <td>NS Math</td> 
+            <td>PE</td> 
+            <td>French</td> 
+            <td>SciEnv</td> 
+            <td>Hist</td> 
+            <td>NS Math</td> 
+            <td>Music</td> 
+            <td>RelEth</td> 
+            <td>RelEth</td> 
+            <td></td> 
+        </tr>
+<table>
+</body>
+</html>
+
