@@ -1,0 +1,19 @@
+th{
+	border: 1px black solid;
+}
+
+td{
+        border: 1px black solid;
+}
+
+td.cp {
+	border: 1px blue solid;
+}
+
+.m {
+	background-color: yellow; 
+}
+
+.pe {
+	background-color: red;
+}
