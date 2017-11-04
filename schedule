@@ -3,7 +3,7 @@
   <head> 
     <title>Schedule
     </title>
-    <link href= "schedule.css" type= text/css rel= stylesheet>
+    <link href= "sched.css" type= text/css rel= stylesheet>
   </head> 
   <body>
     <table>
@@ -28,7 +28,7 @@
             <td>French</td>
             <td>Eng La</td>
             <td>Hist</td>
-            <th>CompProg</th>
+            <td class=¨cp¨>CompProg</td>
             <td>Hist</td>
             <td>Ns Math</td>
             <td></td>
@@ -38,16 +38,16 @@
         <tr>
             <th>Period 2</th>
             <td>SciEnv</td>
-            <td>Music</td>
+            <td class=¨m¨>Music</td>
             <td>Ns Math</td>
-            <th>CompProg</th>
-            <td>Music</td>
+            <td class=¨cp¨>CompProg</td>
+            <td class=¨m¨>Music</td>
             <td>Ns Math</td>
             <td>RelEth</td>
             <td>French</td>
-            <th>CompProg</th>
-            <th>CompProg</th>
-            <th>CompProg</th>
+            <td class=¨cp¨>CompProg</td>
+            <td class=¨cp¨>CompProg</td>
+            <td class=¨cp¨>CompProg</td>
         </tr>
         <tr>
             <th>Period 3</th>
@@ -65,12 +65,12 @@
         </tr>
         <tr>
             <th>Period 4</th>
-            <th>CompProg</th>
+            <td class=¨cp¨>CompProg</td>
             <td>Spch</td>
             <td>HR4-E</td>
             <td>Hist</td>
             <td>Spch</td>
-            <td>Music</td>
+            <td class=¨m¨>Music</td>
             <td>LA4</td>
             <td>Hist</td>
             <td></td>
@@ -79,14 +79,14 @@
         </tr>
         <tr>
             <th>Period 5</th> 
-            <th>CompProg</th> 
+            <td>CompProg</td> 
             <td>Hist</td> 
             <td>SciEnv</td> 
             <td>Ns Math</td> 
             <td>Ns Math</td> 
-            <td>Music</td> 
+            <td class=¨m¨>Music</td> 
             <td>Eng LA</td> 
-            <td>PE</td> 
+            <td class=¨pe¨>PE</td> 
             <td>SciEnv</td> 
             <td>SciEnv</td> 
             <td>SciEnv</td> 
@@ -95,12 +95,12 @@
             <th>Period 6</th> 
             <td>Eng LA</td> 
             <td>NS Math</td> 
-            <td>PE</td> 
+            <td class=¨pe¨>PE</td> 
             <td>French</td> 
             <td>SciEnv</td> 
             <td>Hist</td> 
             <td>NS Math</td> 
-            <td>Music</td> 
+            <td class=¨m¨>Music</td> 
             <td>RelEth</td> 
             <td>RelEth</td> 
             <td></td> 
@@ -108,4 +108,3 @@
     <table>
   </body>
 </html>
-
