@@ -16,3 +16,6 @@ td.cp {
 .pe {
 	background-color: red;
 }
+td:hover {
+	background-color: DarkOrange;
+}
