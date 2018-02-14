@@ -106,15 +106,39 @@
             <td></td> 
         </tr>
     <table>
-	<form>
-		<input placeholder= "search class">
+		<input placeholder= "search class" id="Ayo&Teo">
 		<input type="submit" value="Go" onclick ="highlight()">
-	</form>
-	<script>
-	    function highlight() {
-			
-		}
-	
+<script>
+	function highlight(){
+		var course = document.getElementById("Ayo&Teo").value;
+
+		switch (course) {
+			case 'Religion':
+				course = "rel";
+				break;
+			case 'Science':
+			    course = "sc";        
+				break;
+			case 'French':
+				course = "fr";			
+				break;
+			case 'English':
+				course = "eng";			
+				break;
+			case 'History':
+				course = "hist";			
+				break;
+			case 'Computer Programming':
+				course = "cp";			
+				break;
+			case 'Math':
+				course = "math";			
+				break;
+			case 'Gym':
+				course = "pe";			
+				break;
+			}
+	}
 	</script>
   </body>
 </html>
