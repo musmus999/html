@@ -114,30 +114,43 @@
 
 		switch (course) {
 			case 'Religion':
-				course = "rel";
-				break;
+				var name = document.getElementsByClassName("rel")
+					break;
 			case 'Science':
-			    course = "sc";        
-				break;
+			    var name = document.getElementsByClassName("sc")       
+					break;
 			case 'French':
-				course = "fr";			
-				break;
+				var name = document.getElementsByClassName("fr")		
+					break;
 			case 'English':
-				course = "eng";			
-				break;
+				var name = document.getElementsByClassName("eng")	
+					break;
 			case 'History':
-				course = "hist";			
-				break;
+				var name = document.getElementsByClassName("hist")			
+					break;
 			case 'Computer Programming':
-				course = "cp";			
-				break;
+				var name = document.getElementsByClassName("cp")
+					break;
 			case 'Math':
-				course = "math";			
-				break;
+				var name = document.getElementsByClassName("math")			
+					break;
 			case 'Gym':
-				course = "pe";			
-				break;
+				var name = document.getElementsByClassName("pe")		
+					break;
+			case 'Homeroom':
+				var name = document.getElementsByClassName("hr")
+					break;
+			case 'Level Assembly':
+				var name = document.getElementsByClassName("la")
+					break;	
+			case 'Speech':
+				var name = document.getElementsByClassName("spch")
+					break;		
 			}
+			for (i = 0; i < name.length; i++) {
+				name[i].style.backgroundColor = "crimson";
+    
+}
 	}
 	</script>
   </body>
